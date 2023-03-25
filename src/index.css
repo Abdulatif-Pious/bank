@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, rgb(8, 173, 219), rgb(5, 251, 189) 90%); 
+  -webkit-backround-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+  background: linear-gradient(90deg, rgba(5, 251, 189, 0.6), rgba(8, 173, 219, 0.5) 90%);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  background: linear-gradient(90deg, rgb(5, 251, 189), rgb(8, 173, 219) 90%);
+  border-radius: 16px;
+}
+
+
+@media  screen and (min-width: 768px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .button {
+    font-size: 24px
+  }
+}
+
+
+
