@@ -7,7 +7,7 @@ const Product = () => {
   return (
     
     <>
-      {/* */}
+      {/*part 1 */}
       <div className={` ${styles.margin} ${layout.section}`} id="product">
         <div className={` ${styles.sectionImg}`}>
           <img 
@@ -32,12 +32,12 @@ const Product = () => {
             <img 
               src={apple}
               alt="app store"
-              className='w-full h-full'
+              className='w-full h-full cursor-pointer'
             />
             <img 
               src={google}
               alt="gooogle Play"
-              className='w-full h-full'
+              className='w-full h-full cursor-pointer'
             />
           </div>
         </div>

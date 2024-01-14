@@ -22,5 +22,4 @@ export const  layout = {
   sectionReverse: `flex flex-col-reverse xl:flex-row gap-16 ${styles.paddingY}`, 
 
   sectionImg: `flex-1  ${styles.flexCenter}`,
-
-}
+};

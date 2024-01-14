@@ -19,7 +19,7 @@ const Features = () => {
           of credit cards on the market.
         </p>
         <div>
-          <button type="button" className={` p-4  button`}>
+          <button type="button" className="p-4 button">
             Get started
           </button>
         </div>

@@ -4,8 +4,8 @@ import { Navbar, Footer } from './components';
 
 function App() {
   return (
-    <div className='bg-primary-color min-h-screen overflow-y-auto'>
-      <div className="w-full 2xl:max-w-[1280px] mx-auto">
+    <div className='bg-primary-color overflow-y-auto'>
+      <div className="2xl:max-w-[1280px] mx-auto">
         <Navbar />
 
         <Hero />

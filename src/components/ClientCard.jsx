@@ -4,7 +4,7 @@ import { styles } from '../style';
 
 const ClientCard = ({img, name, title, content}) => {
   return (
-    <div className={`${styles.margin}`}>
+    <div className={styles.margin}>
       <div className='flex items-center'>
         <div className={`${styles.flexCenter} w-[100px] h-[100px]`}>
           <img 

@@ -7,7 +7,7 @@ const NavLink = ({ title, id, mobileMenu}) => (
   <li>
     <a
       href={`#${id}`}
-      className={`flex justify-center text-base md:text-lg 2xl:text-xl cursor-pointer hover:text-[#1da1f2] ${mobileMenu && styles.paddingY} ${mobileMenu ? 'hover:bg-white rounded-full' : 'text-secondary-color hover:scale-[1.1]'}`}
+      className={`flex justify-center cursor-pointer hover:text-[#1da1f2] ${mobileMenu && styles.paddingY} ${mobileMenu ? 'hover:bg-white rounded-full' : 'text-secondary-color hover:scale-[1.1]'}`}
     >
       {title}
     </a>

@@ -47,9 +47,9 @@ const Footer = () => {
 
       <hr className='my-4'/>
 
-      <div className={`flex flex-col sm:flex-row justify-between gap-3`}>
-        <p className={` ${styles.paragraph} text-center`}>
-          Copyright Ⓒ 2023 HooBank. All Rights Reserved.
+      <div className="flex flex-col-reverse sm:flex-row justify-between gap-3">
+        <p className={`${styles.paragraph} text-center`}>
+          Copyright Ⓒ 2023 HooBank. All rights reserved.
         </p>
         <div className='flex gap-3 justify-center'>
             {socialMedia.map((item) => (
